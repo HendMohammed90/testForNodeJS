@@ -19,7 +19,7 @@ module.exports =  class Cart{
         this.userId = userId ;
 
     }
-    addProduct(){ 
-        console.log('Product added');
+    addProduct(shoppingCart){ 
+        console.log(`Product added to the cart ${shoppingCart}`);
     }
 }
