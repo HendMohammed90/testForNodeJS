@@ -12,7 +12,7 @@ class Product{
         // products.push(product)
         products.push(product);
         // this.products =[...this.products, ...product];
-        console.log(products);
+        // console.log(products);
         // return (this.products);
     }
 }
