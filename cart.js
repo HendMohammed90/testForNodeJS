@@ -14,12 +14,14 @@
 
 module.exports =  class Cart{
 
-    constructor(userId , products ){
-        this.products = products;
+    constructor(userId ){
+        this.products = [];
         this.userId = userId ;
 
     }
-    addProduct(shoppingCart){ 
-        console.log(`Product added to the cart ${shoppingCart}`);
+    addProductToCart(shoppingCartItem){ 
+        // console.log(`Products added to the cart are${shoppingCart}`);
+        this.products.push(shoppingCartItem) ;
+        console.log(this);
     }
 }

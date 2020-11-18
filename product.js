@@ -31,5 +31,6 @@ module.exports =  class Product{
 
     add(){
         console.log("Product Add to the Database ^_^");
+        console.log(this);
     }
 }
